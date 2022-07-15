@@ -1,0 +1,45 @@
+.footer  {
+    font-family: 'Merriweather';
+    height: 170px;
+    padding: 24px;
+    border-width: 1px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.footer__img {
+    margin-left: 24px;
+}
+
+.footer__img--img {
+    width: 55%;
+}
+
+.footer__offices {
+    display: flex;
+}
+
+.footer__office {
+    padding: 24px;
+}
+
+.footer__office--title {
+    font-size: 24px;
+    font-weight: 800;
+    color: #fdce4f;
+    margin-bottom: 20px;
+}
+
+.footer__office--address {
+    margin-bottom: 14px;
+}
+
+.footer__motto {
+    font-size: 36px;
+}
+
+.emphasise {
+    color: #00c2cb;
+    margin-left: 60px;
+}

@@ -1,0 +1,35 @@
+.about {
+    margin-top: 180px;
+}
+
+.about__Desc {
+    color: rgb(58, 58, 58);
+    font-family: 'Merriweather';
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__title {
+    font-size: 24px;
+}
+
+.about__descdesc {
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.about__div {
+    height: 4px;
+    width: 100px;
+    border-radius: 4px;
+    margin-top: 24px;
+    border: solid #fdce4f;
+}
+
+.about__descdesc {
+    width: 100%;
+    max-width: 820px;
+    margin-top: 24px;
+}

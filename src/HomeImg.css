@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,400&display=swap');
+
+.home__img--img {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    height: 585px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    background: linear-gradient(to top, #3204fdba, #9907facc),
+}
+
+.emphasise {
+    font-weight: 900;
+}
+
+.home__img--overlay {
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    opacity: 0.2;
+}
+
+/* .home__img--ss {
+    height: 100vh;
+    width: 100vh;
+    background-color: black;
+    position: relative;
+} */
+
+.home__imgDesc {
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    max-width: 600px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 50px;
+    font-family: 'Merriweather';
+    color: #fdce4f;
+}
+
+.home__imgDesc > h4, h2 {
+    color: white !important;
+}
+
+.home__imgDesc > h2 {
+    font-size: 28px;
+}
+
+.home__imgDescDescDesc {
+    padding-top: 8px;
+}
+
+.home__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home {
+    height: 200vh;
+}
+
+.home__img--btn {
+    z-index: 4 !important;
+}
+
+.home__img--btn  {
+    background-color: #00c2cb !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    border-radius: 8px !important;
+    padding: 14px 32px !important;
+    margin-top: 24px !important;
+    box-shadow: 1px 1px 4px 2px #00c2cb;
+    transition: all 300ms ease !important;
+}
+
+.home__img--btn:hover {
+    background-color: #02a5ae !important;
+    transform: scale(1.02);
+    box-shadow: 1px 1px 4px 2px #02a5ae;
+}

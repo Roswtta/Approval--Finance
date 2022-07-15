@@ -1,0 +1,38 @@
+.bottom {
+    background-color: white;
+    min-height: 75px;
+    font-family: 'MerriWeather';
+    z-index: 10;
+}
+
+.bottom__container {
+    padding: 24px;
+}
+
+.bottom__contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bottom__contact {
+    border: solid rgb(220, 187, 2);
+    border-radius: 8px;
+    width: 150px;
+}
+
+.bottom__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom__icons > .MuiSvgIcon-root {
+    font-size: 34px;
+}
+
+.bottom__contact2 {
+    margin-left: 12px;
+}
